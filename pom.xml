@@ -68,6 +68,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<fileName>spring-boot-docker</fileName>
 	</build>
 
 </project>

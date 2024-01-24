@@ -47,6 +47,7 @@
 							th:field="*{firstName}"
 							class="form-control"
 							placeholder="Enter students first Name"
+							 required
 							/>
 							
 						</div>
@@ -59,6 +60,7 @@
 							th:field="*{lastName}"
 							class="form-control"
 							placeholder="Enter students Last Name"
+							 required
 							/>
 							
 						</div>
@@ -71,8 +73,9 @@
 							th:field="*{email}"
 							class="form-control"
 							placeholder="Enter students  Email"
+							 required
+							 pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
 							/>
-							<br>
 							<div class="box-footer">
 								<button type="submit" class="btn btn-primary">
 									Submit
